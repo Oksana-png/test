@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #222222;
+}
+ul,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 56px;
+  height: 56px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  font-family: "DM Sans";
+  gap: 40px;
+}
+
+.nav-link {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.menu-button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  background: #09a66d;
+  border-radius: 8px;
+  padding: 10px 23px;
+  color: #fff;
+  border: none;
+}
+.banner-title {
+  font-family: "Rosario";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  margin-bottom: 20px;
+}
+
+.advantages-item {
+  display: flex;
+}
+.advantages-icon {
+  margin-right: 24px;
+}
+.advantages-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  margin-bottom: 4px;
+}
+.advantages-text {
+  text-align: center;
+}
